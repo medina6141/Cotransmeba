@@ -1,0 +1,450 @@
+/* Estilos básicos */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {     
+    position: fixed; /* Fija el menú en la pantalla */
+    top: 0; /* Ubica el menú en la parte superior */
+    left: 0;
+    width: 100%; /* Asegura que ocupe todo el ancho de la página */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+    color: white; /* Color del texto */
+    padding: 15px 20px;
+    z-index: 1000; /* Asegura que esté sobre otros elementos, como el slider */
+    margin-bottom: 20px; /* Añade espacio hacia abajo */   
+    gap: 100px; /* Espacio entre elementos flexibles */
+    
+    
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.logo {
+    width: 90px; /* Ajusta el ancho base del logo */
+    max-width: 90%; /* Permite que el logo se ajuste sin exceder el tamaño del contenedor */
+    height: auto; /* Mantiene la proporción original */
+    display: block;
+  
+    margin-right: 10px;
+}
+
+nav {
+    margin: auto;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0 10px;
+    
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 1em;
+}
+
+/* Menu Toggle Button */
+.menu-toggle {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        display: none; /* Oculta el menú en pantallas pequeñas */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        width: 200px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .show-menu {
+        display: flex; /* Muestra el menú cuando se activa */
+    }
+}
+
+
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form textarea, form button {
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Responsive Slider */
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    position: relative;
+    max-width: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+    z-index: 1;   
+    
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+/* Botones de navegación */
+
+
+.prev {
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    right: 10px;
+}
+
+
+/* FOOTER   */
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+}
+
+.footer-section {
+    flex: 1 1 200px; /* Flexibilidad en el ancho de cada sección */
+    margin: 10px; /* Margen para separar las secciones */
+}
+
+.footer-section h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 10px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ff9800; /* Color al pasar el mouse */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Cambiar a columna en pantallas más pequeñas */
+        align-items: center; /* Centrar contenido */
+    }
+
+    .footer-section {
+        flex: 1 1 100%; /* Cada sección ocupa todo el ancho */
+        margin: 10px 0; /* Margen vertical */
+    }
+}
+
+/* BARRA SOCIAL   */
+.social-bar {
+    position: fixed; /* Fija la barra social */
+    right: 10px; /* Espacio desde la derecha */
+    top: 250px; /* Espacio desde la parte superior */
+    background: rgba(51, 51, 51, 0.8); /* Fondo semi-transparente */
+    padding: 10px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.social-bar ul {
+    list-style-type: none; /* Quitar puntos de la lista */
+    padding: 0; /* Sin padding */
+    margin: 0; /* Sin margen */
+}
+
+.social-bar ul li {
+    margin: 10px 0; /* Espacio vertical entre iconos */
+}
+
+.social-bar ul li a {
+    color: #fff; /* Color de los iconos */
+    font-size: 30px; /* Tamaño del icono */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición de color */
+}
+
+.social-bar ul li a:hover {
+    color: #007bff; /* Cambia el color al pasar el mouse */
+}
+
+/* FORMULARIO CONTACTO   */
+.form-container {
+    padding: 100px;
+    max-width: 900px;
+    width: 100%;
+    margin: auto; /* Asegura el centrado horizontal */
+   
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #958b8b;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.form-container p {
+    text-align: center;
+    color: #555555;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.form-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+
+/* Diseño de dos columnas en pantallas grandes */
+@media (min-width: 600px) {
+    .form-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form-group-full {
+        grid-column: span 2;
+    }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #f18383; /* Fondo de los campos */
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.privacy-policy {
+    font-size: 12px;
+    color: #555555;
+    display: flex;
+    align-items: center;
+}
+
+.privacy-policy input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input::placeholder {
+    color: #fcfcfc; /* Cambia el color */
+    font-family: Arial, sans-serif; /* Cambia el tipo de letra */
+    font-size: 17px; /* Cambia el tamaño de la letra */
+    font-style: normal; /* Otras opciones de estilo */
+  }
+
+  textarea::placeholder {
+    color: #fcfcfc; /* Cambia el color */
+    font-family: Arial, sans-serif; /* Cambia el tipo de letra */
+    font-size: 17px; /* Cambia el tamaño de la letra */
+    font-style: normal; /* Otras opciones de estilo */
+  }
+  

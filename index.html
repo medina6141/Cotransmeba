@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotransmeba</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    
+    <!-- Header -->
+    <div id="header-container"></div>    
+    <br><br>
+      <div class="slider">
+        <div class="slides">
+            <!-- Cada div representa una imagen en el slider -->
+            <div class="slide"><img src="assets/images/img1.jpg" alt="Imagen 1"></div>
+            <div class="slide"><img src="assets/images/img2.jpg" alt="Imagen 2"></div>
+            <div class="slide"><img src="assets/images/img3.jpg" alt="Imagen 3"></div>
+        </div>
+        <!-- Botones de navegación -->
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    
+  <!-- Sección Principal -->
+  <section id="home">
+    <h2>Bienvenido a Nombre de la Empresa</h2>
+    <p>Descripción breve del negocio, explicando qué hace la empresa y sus servicios o productos destacados.</p>
+</section>
+
+      
+    <!-- Sección Principal -->
+    <section id="home">
+        <h2>Bienvenido a Nombre de la Empresa</h2>
+        <p>Descripción breve del negocio, explicando qué hace la empresa y sus servicios o productos destacados.</p>
+    </section>
+
+    <!-- Sección Región -->
+    <section id="region">
+        <h2>Bienvenido a Nombre de la Empresa</h2>
+        <p>Descripción breve del negocio, explicando qué hace la empresa y sus servicios o productos destacados.</p>
+    </section>    
+
+    <!-- Sobre Nosotros -->
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p><strong>Misión:</strong> Nuestra misión es ofrecer servicios de alta calidad que superen las expectativas de nuestros clientes.</p>
+        <p><strong>Visión:</strong> Ser líderes en nuestro sector, con innovación y compromiso.</p>
+    </section>
+
+    <!-- Servicios -->
+    <section id="services">
+        <h2>Servicios</h2>
+        <p>Descripción breve de los servicios o productos que ofrece la empresa.</p>
+        <ul>
+            <li>Servicio 1</li>
+            <li>Servicio 2</li>
+            <li>Servicio 3</li>
+        </ul>
+    </section>
+
+    <!-- Contacto -->
+    
+    <section id="contact">
+        <div class="form-container">
+            <h2>Contacto</h2>
+            <p>Para más información sólo debes registrar tus datos. Nuestro equipo se pondrá en contacto contigo.</p>
+                <form action="#" method="post" class="form-grid">
+                <div class="form-group">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombres" required>
+                </div>
+    
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                </div>
+    
+                <div class="form-group">
+                    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+                </div>
+    
+                <div class="form-group form-group-full">
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Mensaje" required></textarea>
+                </div>
+    
+                <div class="form-group form-group-full privacy-policy">
+                    <input type="checkbox" id="acepto" name="acepto" placeholder="Nombres" required>
+                    <label for="acepto">Al suministrar y enviar sus datos, usted afirma que ha leído y aceptado los términos y condiciones de la Política de Tratamiento de Datos Personales de Cotransmeba.</label>
+                </div>
+                
+    
+                <button type="submit" class="submit-button form-group-full">Enviar</button>
+            </form>
+        </div>
+        
+    </section>
+    
+
+    <div class="social-bar">
+        <ul>
+            <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+    
+    
+
+    
+    <div id="footer-pie"></div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
