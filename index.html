@@ -14,17 +14,36 @@
     <!-- Header -->
     <div id="header-container"></div>    
     <br><br>
-      <div class="slider">
+    <div class="slider">
         <div class="slides">
-            <!-- Cada div representa una imagen en el slider -->
-            <div class="slide"><img src="assets/images/img1.jpg" alt="Imagen 1"></div>
-            <div class="slide"><img src="assets/images/img2.jpg" alt="Imagen 2"></div>
-            <div class="slide"><img src="assets/images/img3.jpg" alt="Imagen 3"></div>
+            <!-- Cada div representa una imagen en el slider con texto -->
+            <div class="slide">
+                <img src="assets/images/img1.jpg" alt="Imagen 1">
+                <div class="slide-text">
+                    <h3 class="slide-title">Título de Imagen 1</h3> <!-- Título del slide -->
+                    <p>Fue reconocida como proveedor consciente por Comfama, gracias a su compromiso como agente de cambio en la sociedad y a la participación en […]</p> <!-- Párrafo -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/images/img2.jpg" alt="Imagen 2">
+                <div class="slide-text">
+                    <h3 class="slide-title">Título de Imagen 2</h3> <!-- Título del slide -->
+                    <p>Fue reconocida como proveedor consciente por Comfama, gracias a su compromiso como agente de cambio en la sociedad y a la participación en […]</p> <!-- Párrafo -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/images/img3.jpg" alt="Imagen 3">
+                <div class="slide-text">
+                    <h3 class="slide-title">Título de Imagen 3</h3> <!-- Título del slide -->
+                    <p>Fue reconocida como proveedor consciente por Comfama, gracias a su compromiso como agente de cambio en la sociedad y a la participación en […]</p> <!-- Párrafo -->
+                </div>
+            </div>
         </div>
         <!-- Botones de navegación -->
         <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
         <button class="next" onclick="changeSlide(1)">&#10095;</button>
     </div>
+    
     
   <!-- Sección Principal -->
   <section id="home">
