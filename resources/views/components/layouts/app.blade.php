@@ -26,10 +26,10 @@
             <x-slot:brand>
                 {{-- Brand --}}
                 <div class="mr-3"><x-logo class="h-auto w-12" :onlyIcon="true" /></div>
-                <x-button class="btn-ghost btn-sm mr-3 md:max-lg:btn-circle" label="Messages" icon="o-envelope"
+                {{-- <x-button class="btn-ghost btn-sm mr-3 md:max-lg:btn-circle" label="Messages" icon="o-envelope"
                     link="###" responsive />
                 <x-button class="btn-ghost btn-sm md:max-lg:btn-circle" label="Notifications" icon="o-bell"
-                    link="###" responsive />
+                    link="###" responsive /> --}}
             </x-slot:brand>
 
             {{-- Right side actions --}}
