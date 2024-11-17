@@ -25,10 +25,10 @@
 
             <x-slot:brand>
                 {{-- Brand --}}
-                <div class="mr-3"><x-logo class="h-auto w-12" :onlyIcon="true" /></div>
-                {{-- <x-button class="btn-ghost btn-sm mr-3 md:max-lg:btn-circle" label="Messages" icon="o-envelope"
-                    link="###" responsive />
-                <x-button class="btn-ghost btn-sm md:max-lg:btn-circle" label="Notifications" icon="o-bell"
+                <div class="mr-14"><x-logo class="h-auto w-12" :onlyIcon="true" /></div>
+                <x-button class="btn-ghost btn-sm mr-3 md:max-lg:btn-circle" label="Contacto" icon="o-envelope"
+                    link="#contact" responsive no-wire-navigate />
+                {{-- <x-button class="btn-ghost btn-sm md:max-lg:btn-circle" label="Notifications" icon="o-bell"
                     link="###" responsive /> --}}
             </x-slot:brand>
 
