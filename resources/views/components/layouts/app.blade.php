@@ -7,6 +7,9 @@
 
         <title>{{ config('app.name') }}</title>
 
+        <meta name="description" content="Somos una corporación para la transformación del tejido social del medio y bajo Atrato para el desarrollo
+            de la región.">
+
         <!-- Fonts -->
         <link href="https://fonts.bunny.net" rel="preconnect">
         <link href="https://fonts.bunny.net/css?family=Inter:400,500,600,800&display=swap" rel="stylesheet" />
